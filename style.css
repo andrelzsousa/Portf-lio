@@ -6,10 +6,17 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*body {
+    background: linear-gradient(#CFCFCF, #D8D8D8, #787878);
+}*/
 
 header {
     text-align: center;
     padding: 2%;
+}
+
+h1 {
+    font-size: 4em;
 }
 
 main {
@@ -18,17 +25,22 @@ main {
 }
 
 main p {
+    width: 600px;
+    margin: 0 auto;
     text-align: center;
     padding: 1% 10%;
 }
 
-
+.conteudo-foto {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 0 0;
+}
 
 .andre {
     width: 15%;
     border-radius: 75%;
-    display: block;
-    margin: 2% auto 0 auto;
+    box-shadow: 10px 5px 40px grey;
 }
 
 .redes {
@@ -47,6 +59,14 @@ main p {
 
 footer {
     width: 700px;
-    margin: 0 auto;
+    margin: 2% auto;
     background: linear-gradient(grey, white 5%);
+}
+
+nav {
+    padding: 1% 0 0 0;
+}
+
+nav li {
+    font-size: 1.1em;
 }
