@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background: linear-gradient(#CFCFCF, #D8D8D8, #c9c6c6);
+    /* background: linear-gradient(#CFCFCF, #D8D8D8, #c9c6c6); */
+    text-align: center;
 }
 
 header {
@@ -19,8 +20,12 @@ h1 {
     font-size: 4em;
 }
 
+.subtitulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 main {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -63,6 +68,11 @@ main p {
     justify-content: center;
     gap: 5em;
     padding: 2%;
+}
+
+.lista li:hover{
+    color: rgb(219, 229, 138);
+    cursor: pointer;
 }
 
 footer {
